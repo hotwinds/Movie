@@ -1,0 +1,190 @@
+h3 {
+    position: relative;
+    left		: 30%;
+    right: 0;
+	padding: 0px; 
+    margin: 10px;
+    width: 100%;
+}
+.form1 {
+    background-color: lightyellow;
+    border: 1px solid black;
+    width: 400px;
+    position: absolute;
+    padding: 10px;
+    top: 5%;
+    left: 20%;
+    border-radius: 10px;
+}
+#inp, #sel, #search {
+    width: 300px;
+    height: 20px;
+}
+.list {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 130px;
+    left: 5px;
+    border: 1px solid black;
+    display: inline-block; 
+    /* column-count: 2; */
+    margin: 15px;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
+.pagin {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 130px;
+    left: 0;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pagnum, .pagleft, .pagright, .pagleft1, .pagright1 {
+    border: 1px solid #c9c9c9;
+    color: #242424;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .8s ease 0s;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+    margin-top: 10px;
+    position: relative;
+}
+/* .img {
+    width: 150px;
+    height: auto;
+    vertical-align: text-top;
+} */
+.photo {
+    width: 200px; 
+    height: auto; 
+    margin: 0;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.details {
+    position: relative;
+    top: 150px; 
+    width: auto; 
+    height: auto; 
+    margin: 0;
+    vertical-align: middle;
+    padding: 0;
+    
+}
+.ndiv {
+    display: flex;
+    float: left;
+    /* justify-content: center; */
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    width: 300px;
+    height: 230px;
+    vertical-align: middle;
+    align-items: center;
+
+}
+.ndiv img {
+    display: flex;
+    position: relative;
+    /* top: 0;
+    right: 0; */
+    width: 150px;
+    height: auto;
+    vertical-align: text-top;
+    justify-content: center;
+}
+
+.ndiv table {
+    display: flex;
+    position: relative;
+    /* top 0;
+    left: 0; */
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+    justify-content: center;
+}
+.button12 {
+    height: 20px;
+    width: 90px;
+    border-radius: 2px;
+}
+.tableinfo {
+    border-radius:10px;
+    margin:0 auto;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: bisque;
+    font-size: x-large;
+}
+.tableinfo th{
+    text-align: left;
+}
+.tbl {
+    position: relative;
+    left: 5px;
+    top: 0;
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+.active {
+    background-color: chartreuse;
+}
+/* .pagin {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    top: 130px;
+}
+.pagin ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.pagin li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.pagin li a {
+    border: 1px solid #c9c9c9;
+    color: #242424;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .8s ease 0s;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+    margin-top: 10px;
+}
+.pagin li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagin li a.active {
+    background-color: #4CAF50;
+    color: white;
+} */

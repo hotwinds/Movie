@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h3>Search:</h3>
+    <div class='form1'>
+        <form action="http://www.omdbapi.com/">
+            <!-- <span></span> -->
+            <lable>
+                <b> Title:</b>
+                <input name="t" id="inp" type="text" value="Star"> <br><br>
+                <b>Type:</b>
+            </lable>
+            <select name="type" id="sel">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select> <br><br>
+            <input type="hidden" name="apikey" id="apk" value="5c5c94ec">
+            <button type="button" id="search">Search</button>
+        </form>
+    </div>
+    <!-- a6e25b95 -->
+    <!-- 8ed7f841 -->
+
+
+    <div class='list' id="list"></div>
+    <div class="pagin" id='pagin'></div>
+    <div class="details"></div>
+
+    <!-- http://www.omdbapi.com/?t=value&type=value&apikey=a6e25b95 -->
+
+    <!-- 5c5c94ec -->
+
+    <!-- http://www.omdbapi.com/?i=tt3896198&apikey=5c5c94ec -->
+
+    <!-- http://www.omdbapi.com/?s=star&apikey=66da583c -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/new.js"></script>
+</body>
+
+</html>
